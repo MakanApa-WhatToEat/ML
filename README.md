@@ -1,6 +1,8 @@
 # ML
-1 Datasets (X)
-2 Model(X)
-3 Accuracy (X)
-4 Convertion (x)
-5 Deploy (X)
+<ol>
+  <li> Datasets (X) </li>
+  <li> Model(X) </li>
+  <li> Accuracy (X) </li>
+  <li> Convertion (x) </li>
+  <li> Deploy (X) </li>
+</ol>
