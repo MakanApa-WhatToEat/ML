@@ -16,6 +16,7 @@ model = tf.keras.models.load_model("FinalModel_V1.h5")
 #Define classes list
 class_list = ['Ayam', 'Bawang Merah', 'Bawang Putih', 'Kambing', 'Lele', 'Sapi', 'Tahu',
               'Telur', 'Tempe', 'Udang']
+
 #Preprocess the image before predicting
 def preprocessing(image):
     image = image.resize((256, 256))
@@ -31,16 +32,18 @@ def main():
     Application is Running
     """
 
-@app.route("/about")
+@app.route("/index")
 def postsPage():
-    return render_template("about.html")
+    return render_template("index.html")
 
-@app.route("/predict", methods=["POST"])
+@app.route("/result", methods=["POST"])
 def predict():
-    image = request.files["img"]
+    image = request.files["pic"]
+    image = Image.open(image)
     image = preprocessing(image)
     predicted = model.predict(image)
-    class_name = 
+    class_name = class_list[np.argmax(predicted)]
+    return render_template("result.html", prediction=class_name)
 
 if __name__ == '__main__':
     try:
