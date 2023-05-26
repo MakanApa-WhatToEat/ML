@@ -1,27 +1,27 @@
-<h1><b> This is the repository belong to Machine Learning Path </b></h1>
+<h1>This is the repository belong to Machine Learning Path</h1>
 
-<h2><b>This is our current progress</b><h2>
+<h2>This is our current progress<h2>
 <hr>
 <p>
   <ol>
     <li>
-      <b> Datasets (100%)
+      <strong> Datasets (100%) </strong>
       <p> Our datasets consists 10 class of ingredients, such as chicken, red onion, garlic, goat meat, catfish, tofu, tempe, egg, and shrimp </p>
     </li>
     <li> 
-      <b> Model(80%)
+      <strong> Model(80%)  </strong>
       <p> Our model use transfer learning with MobileNetV2 architecture. In the future, we will create a CNN architecture</p>
     </li>
     <li> 
-      <b> Accuracy
+      <strong> Accuracy  </strong>
       <p> Our train accuracy has reach 92% and 80% on test subject </p>
     </li>
     <li> 
-      <b> Convertion
+      <strong> Convertion </strong>
       <p> Our model has been converted to h5 type of model </p>
     </li>
     <li> 
-      <b> Deploy (20%)
+      <strong> Deploy (20%) </strong>
       <p> We use Flask API and Docker Container for deploying to POSTMAN </p>  
     </li>
   </ol>
