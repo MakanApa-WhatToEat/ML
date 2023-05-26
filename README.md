@@ -27,7 +27,7 @@
   </ol>
 </p>
 
-<h2><b> How To Run The File </b><h2>
+<h2><b> How To Run The File </b></h2>
 <p>
   <Strong> Using Docker </strong>
   <ol>
