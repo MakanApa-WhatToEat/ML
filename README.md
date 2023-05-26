@@ -5,8 +5,8 @@
 
 <ol>
   <li>
-    <p> <b> Datasets (100%) </b>
-     Our datasets consists 10 class of ingredients, such as chicken, red onion, garlic, goat meat, catfish, tofu, tempe, egg, and shrimp </p>
+    <b> Datasets (100%) </b>
+    <p> Our datasets consists 10 class of ingredients, such as chicken, red onion, garlic, goat meat, catfish, tofu, tempe, egg, and shrimp </p>
   </li>
   <li> 
     <b> Model(80%) </b>
