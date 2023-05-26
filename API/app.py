@@ -32,10 +32,12 @@ def main():
     Application is Running
     """
 
+#The index page (You can change this if you want)
 @app.route("/index")
 def postsPage():
     return render_template("index.html")
 
+#The result page (You can change this if you want)
 @app.route("/result", methods=["POST"])
 def predict():
     image = request.files["pic"]
@@ -43,6 +45,8 @@ def predict():
     image = preprocessing(image)
     predicted = model.predict(image)
     class_name = class_list[np.argmax(predicted)]
+
+    #The prediction result will be shown as class name
     return render_template("result.html", prediction=class_name)
 
 if __name__ == '__main__':
