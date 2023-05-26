@@ -1,7 +1,6 @@
 <h1>This is the repository belong to Machine Learning Path</h1>
 
 <h2>This is our current progress</h2>
-<hr>
 <p>
   <ol>
     <li>
@@ -26,6 +25,8 @@
     </li>
   </ol>
 </p>
+
+<hr>
 
 <h2><b> How To Run The File </b></h2>
 <p>
