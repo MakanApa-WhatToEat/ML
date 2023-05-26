@@ -27,4 +27,22 @@
   </ol>
 </p>
 
-  <h2><b> How To Run The File </b><h2>
+<h2><b> How To Run The File </b><h2>
+<p>
+  <Strong> Using Docker </strong>
+  <ol>
+    <li> Clone the repository</li>
+    <li> Run the Docker File in the API Folder</li>
+  </ol>  
+</p>
+<p>
+  <Strong> Using Environment in Visual Studio Code</strong>
+  <ol>
+    <li> Clone the repository</li>
+    <li> Create Environment (View -> Command Pallete -> Python:Create Environment</li>
+    <li> Run .venv -> Scripts -> Activate.ps1 (Make sure you have Powershell extension)</li>
+    <li> Run Terminal -> New Terminal </li>
+    <li> Run python install -r requirements.txt (Skip this if the required library has been installed in your environment(.venv -> Library))
+    <li> Run python -m app.py or python -m flask run </li>
+  </ol>  
+</p>
