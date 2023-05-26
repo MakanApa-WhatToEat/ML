@@ -40,10 +40,10 @@
   <Strong> Using Environment in Visual Studio Code</strong>
   <ol>
     <li> Clone the repository</li>
-    <li> Create Environment (View -> Command Pallete -> Python:Create Environment</li>
-    <li> Run .venv -> Scripts -> Activate.ps1 (Make sure you have Powershell extension)</li>
-    <li> Run Terminal -> New Terminal </li>
-    <li> Run python install -r requirements.txt (Skip this if the required library has been installed in your environment(.venv -> Library))
-    <li> Run python -m app.py or python -m flask run </li>
+    <li> Create Environment <b>(View -> Command Pallete -> Python:Create Environment)</b></li>
+    <li> Run <b>.venv -> Scripts -> Activate.ps1 </b>(Make sure you have Powershell extension)</li>
+    <li> Run <b>Terminal -> New Terminal </b></li>
+    <li> Run <b>python install -r requirements.txt </b>(Skip this if the required library has been installed in your environment(.venv -> Library))
+    <li> Run <b> python -m app.py </b> or <b> python -m flask run </b> </li>
   </ol>  
 </p>
