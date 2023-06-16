@@ -5,23 +5,47 @@
   <ol>
     <li>
       <strong> Datasets (100%) </strong>
-      <p> Our datasets consists 10 class of ingredients, such as chicken, red onion, garlic, goat meat, catfish, tofu, tempe, egg, and shrimp </p>
+      <p> Our datasets consists 10 class of ingredients, such as chicken, red onion, garlic, 
+        goat meat, catfish, tofu, tempe, egg, and shrimp with 240 training and 60 testing 
+        data for each class
+    </p>
     </li>
     <li> 
-      <strong> Model(80%)  </strong>
-      <p> Our model use transfer learning with MobileNetV2 architecture. In the future, we will create a CNN architecture</p>
+      <strong> Model(100%)  </strong>
+      <p> we've been made our main model, that could classify an ingredient for cooking by taking the image of the ingredient. our model is made by transfer 
+        learning using the MobileNetV2 architecture </p>
     </li>
     <li> 
       <strong> Accuracy  </strong>
-      <p> Our train accuracy has reach 92% and 80% on test subject </p>
+      <p> Our train accuracy has reach 92% and 80% on test subject. at this point, it can be conclude 
+        that out model is working properly to classify the image of the food ingredient  </p>
     </li>
     <li> 
-      <strong> Convertion </strong>
-      <p> Our model has been converted to h5 type of model </p>
+      <strong> Conversion </strong>
+      <p> to deploy the model, we convert our model type to .h5  </p>
     </li>
     <li> 
-      <strong> Deploy (20%) </strong>
+      <strong> Deploy (90%) </strong>
       <p> We use Flask API and Docker Container for deploying to POSTMAN </p>  
+    </li>
+    <li>
+        <strong>Future plant</strong>
+        <ul>
+            <li>
+                make our model accuracy more higher to at least around 90 %  
+            </li>
+            <li>
+                make the recommendation to recommend the user about the recipe of food that they  want to cook 
+            </li>
+            <li>
+                make the Object detection to classify the image of ingredient that have
+                specific shape such as ginger,coriander, etc that could help user to know what kind 
+                of ingredient it is 
+            </li>
+            <li>
+                make summary system that can make a summary base on article about food
+            </li>
+        </ul>
     </li>
   </ol>
 </p>
