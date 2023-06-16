@@ -47,7 +47,19 @@ def predict():
     class_name = class_list[np.argmax(predicted)]
 
     #The prediction result will be shown as class name
-    return render_template("result.html", prediction=class_name)
+    return jsonify({"result" : class_name})
+
+@app.route("/result2", methods=["POST"])
+def predict():
+    image_data = request.form.get("image_data")
+    image_bytes = base64.b64decode(image_data)
+    image = Image.open(io.BytesIO(image_bytes))
+    image = preprocessing(image)
+    predicted = model.predict(image)
+    class_name = class_list[np.argmax(predicted)]
+
+    return jsonify({"prediction": class_name})
+
 
 if __name__ == '__main__':
     try:
